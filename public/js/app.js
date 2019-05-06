@@ -47303,7 +47303,8 @@ var render = function() {
         id: "btn-input",
         type: "text",
         name: "message",
-        placeholder: "Type your message here..."
+        placeholder: "Type your message here...",
+        autofocus: ""
       },
       domProps: { value: _vm.newMessage },
       on: {
